@@ -8,13 +8,13 @@
 Summary:	List::MoreUtils - provide the stuff missing in List::Util
 Summary(pl):	List::MoreUtils - dostarczenie elementów brakuj±cych w List::Util
 Name:		perl-List-MoreUtils
-Version:	0.04
+Version:	0.06
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	591e64f035db665a389fc1fea218c8ec
+# Source0-md5:	f47f23246dc8a5da929a4a59f4f1a55a
 URL:		http://search.cpan.org/dist/List-MoreUtils/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
