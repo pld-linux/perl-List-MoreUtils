@@ -6,7 +6,7 @@
 %define	pdir	List
 %define	pnam	MoreUtils
 Summary:	List::MoreUtils - provide the stuff missing in List::Util
-Summary(pl):	List::MoreUtils - dostarcza elementów brakuj±cych w List::Util
+Summary(pl):	List::MoreUtils - dostarczenie elementów brakuj±cych w List::Util
 Name:		perl-List-MoreUtils
 Version:	0.04
 Release:	1
