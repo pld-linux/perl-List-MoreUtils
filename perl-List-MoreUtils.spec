@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	List
-%define	pnam	MoreUtils
+%define		pdir	List
+%define		pnam	MoreUtils
 Summary:	List::MoreUtils - provide the stuff missing in List::Util
 Summary(pl):	List::MoreUtils - dostarczenie elementów brakuj±cych w List::Util
 Name:		perl-List-MoreUtils
