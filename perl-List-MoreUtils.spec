@@ -36,7 +36,7 @@ operacji na listach - elementy, które nie zostan± do³±czone do
 List::Util.
 
 Wszystkie z funkcji s± mo¿liwe do implementowania w jednej linijce
-kodu Perla. U¿ywanie funkcji z tego modu³u mo¿e jednak dac odrobinê
+kodu Perla. U¿ywanie funkcji z tego modu³u mo¿e jednak daæ odrobinê
 wiêksz± wydajno¶æ jako, ¿e ca³o¶æ zosta³a napisana w C. Implementacja
 napisana w perlu s³u¿y w sytuacjach wyj±tkowych w przypadkach, gdy
 elementy modu³u napisane w C nie mog± zostaæ skompilowane na maszynie.
