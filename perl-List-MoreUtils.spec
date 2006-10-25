@@ -9,7 +9,7 @@ Summary:	List::MoreUtils - provide the stuff missing in List::Util
 Summary(pl):	List::MoreUtils - dostarczenie elementów brakuj±cych w List::Util
 Name:		perl-List-MoreUtils
 Version:	0.17
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -65,5 +65,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorarch}/List
 %{perl_vendorarch}/List/*.pm
 %{_mandir}/man3/*
