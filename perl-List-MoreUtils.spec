@@ -6,7 +6,7 @@
 %define		pdir	List
 %define		pnam	MoreUtils
 Summary:	List::MoreUtils - provide the stuff missing in List::Util
-Summary(pl):	List::MoreUtils - dostarczenie elementów brakuj±cych w List::Util
+Summary(pl.UTF-8):   List::MoreUtils - dostarczenie elementÃ³w brakujÄ…cych w List::Util
 Name:		perl-List-MoreUtils
 Version:	0.22
 Release:	1
@@ -31,16 +31,16 @@ better performance as everything is implemented in C. The pure-Perl
 implementation of these functions only serves as a fallback in case
 the C portions of this module couldn't be compiled on this machine.
 
-%description -l pl
-List::MoreUtils dostarcza prostych, ale czêsto potrzebnych funkcji do
-operacji na listach - elementy, które nie zostan± do³±czone do
+%description -l pl.UTF-8
+List::MoreUtils dostarcza prostych, ale czÄ™sto potrzebnych funkcji do
+operacji na listach - elementy, ktÃ³re nie zostanÄ… doÅ‚Ä…czone do
 List::Util.
 
-Wszystkie z funkcji s± mo¿liwe do implementowania w jednej linijce
-kodu Perla. U¿ywanie funkcji z tego modu³u mo¿e jednak daæ odrobinê
-wiêksz± wydajno¶æ jako, ¿e ca³o¶æ zosta³a napisana w C. Implementacja
-napisana w Perlu s³u¿y w sytuacjach wyj±tkowych w przypadkach, gdy
-elementy modu³u napisane w C nie mog± zostaæ skompilowane na maszynie.
+Wszystkie z funkcji sÄ… moÅ¼liwe do implementowania w jednej linijce
+kodu Perla. UÅ¼ywanie funkcji z tego moduÅ‚u moÅ¼e jednak daÄ‡ odrobinÄ™
+wiÄ™kszÄ… wydajnoÅ›Ä‡ jako, Å¼e caÅ‚oÅ›Ä‡ zostaÅ‚a napisana w C. Implementacja
+napisana w Perlu sÅ‚uÅ¼y w sytuacjach wyjÄ…tkowych w przypadkach, gdy
+elementy moduÅ‚u napisane w C nie mogÄ… zostaÄ‡ skompilowane na maszynie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
