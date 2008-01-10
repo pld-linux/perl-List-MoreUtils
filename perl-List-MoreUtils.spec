@@ -50,6 +50,7 @@ elementy modułu napisane w C nie mogą zostać skompilowane na maszynie.
 	INSTALLDIRS=vendor
 
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
