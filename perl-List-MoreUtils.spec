@@ -74,6 +74,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/List
 %{perl_vendorarch}/List/MoreUtils.pm
 %dir %{perl_vendorarch}/auto/List/MoreUtils
-%{perl_vendorarch}/auto/List/MoreUtils/MoreUtils.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/List/MoreUtils/MoreUtils.so
 %{_mandir}/man3/List::MoreUtils.3pm*
