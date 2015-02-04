@@ -8,20 +8,21 @@
 Summary:	List::MoreUtils - provide the stuff missing in List::Util
 Summary(pl.UTF-8):	List::MoreUtils - dostarczenie elementów brakujących w List::Util
 Name:		perl-List-MoreUtils
-Version:	0.33
-Release:	4
+Version:	0.403
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/List/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8a33c84028cc2ff3e92c92434b326c0f
+# Source0-md5:	ea3a04e59fdc599389370d1d6ddde7bc
 URL:		http://search.cpan.org/dist/List-MoreUtils/
-BuildRequires:	perl-ExtUtils-MakeMaker >= 6.52
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.86
 BuildRequires:	perl-ExtUtils-CBuilder >= 0.27
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Test-Simple >= 0.82
+BuildRequires:	perl-Exporter-Tiny >= 0.038
+BuildRequires:	perl-Test-Simple >= 0.90
 %endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -73,6 +74,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %dir %{perl_vendorarch}/List
 %{perl_vendorarch}/List/MoreUtils.pm
+%{perl_vendorarch}/List/MoreUtils
 %dir %{perl_vendorarch}/auto/List/MoreUtils
 %attr(755,root,root) %{perl_vendorarch}/auto/List/MoreUtils/MoreUtils.so
-%{_mandir}/man3/List::MoreUtils.3pm*
+%{_mandir}/man3/List::MoreUtils*.3pm*
