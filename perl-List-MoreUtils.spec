@@ -8,13 +8,13 @@
 Summary:	List::MoreUtils - provide the stuff missing in List::Util
 Summary(pl.UTF-8):	List::MoreUtils - dostarczenie elementów brakujących w List::Util
 Name:		perl-List-MoreUtils
-Version:	0.403
-Release:	3
+Version:	0.413
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/List/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ea3a04e59fdc599389370d1d6ddde7bc
+# Source0-md5:	bc577c86455e2d1397187bce286a53b9
 URL:		http://search.cpan.org/dist/List-MoreUtils/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.86
 BuildRequires:	perl-ExtUtils-CBuilder >= 0.27
@@ -22,7 +22,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Exporter-Tiny >= 0.038
-BuildRequires:	perl-Test-Simple >= 0.90
+BuildRequires:	perl-Test-Simple >= 0.96
 %endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -71,7 +71,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes
 %dir %{perl_vendorarch}/List
 %{perl_vendorarch}/List/MoreUtils.pm
 %{perl_vendorarch}/List/MoreUtils
