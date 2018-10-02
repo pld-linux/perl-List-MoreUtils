@@ -57,9 +57,7 @@ elementy modułu napisane w C nie mogą zostać skompilowane na maszynie.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 
-%{__make} \
-	CC="%{__cc}" \
-	OPTIMIZE="%{rpmcflags}"
+%{__make}
 
 %{?with_tests:%{__make} test}
 
