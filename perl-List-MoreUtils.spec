@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	List
 %define		pnam	MoreUtils
 Summary:	List::MoreUtils - provide the stuff missing in List::Util
