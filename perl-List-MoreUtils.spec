@@ -7,22 +7,24 @@
 Summary:	List::MoreUtils - provide the stuff missing in List::Util
 Summary(pl.UTF-8):	List::MoreUtils - dostarczenie elementów brakujących w List::Util
 Name:		perl-List-MoreUtils
-Version:	0.428
+Version:	0.430
 Release:	1
 # code before 0.417: same as perl 5.8.4 or later
 License:	Apache v2.0 (code since 0.417), GPL v1+ or Artistic (older code)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/List/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	493032a211cdff1fcf45f59ebd680407
-URL:		http://search.cpan.org/dist/List-MoreUtils/
+# Source0-md5:	daccd6310021231b827dcc943ff1c6b7
+URL:		https://metacpan.org/release/List-MoreUtils
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.86
 BuildRequires:	perl-ExtUtils-CBuilder >= 0.27
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Exporter-Tiny >= 0.038
-BuildRequires:	perl-List-MoreUtils-XS >= 0.426
+BuildRequires:	perl-List-MoreUtils-XS >= 0.430
 BuildRequires:	perl-Storable
+BuildRequires:	perl-Test-LeakTrace
 BuildRequires:	perl-Test-Simple >= 0.96
 %endif
 BuildArch:	noarch
