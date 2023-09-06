@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	List
 %define		pnam	MoreUtils
@@ -14,7 +14,7 @@ License:	Apache v2.0 (code since 0.417), GPL v1+ or Artistic (older code)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/List/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	daccd6310021231b827dcc943ff1c6b7
-URL:		https://metacpan.org/release/List-MoreUtils
+URL:		https://metacpan.org/dist/List-MoreUtils
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.86
 BuildRequires:	perl-ExtUtils-CBuilder >= 0.27
 BuildRequires:	perl-devel >= 1:5.8.1
